@@ -3,33 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Meu blog tech</title>
+
   <style>
-    /* Cabeçalho */
+    body {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
     header {
-      background-color: #007BFF;
+      background-color: #2196f3;
       color: white;
       text-align: center;
       padding: 20px;
     }
 
-    /* Limita a largura da página e centraliza */
+    img {
+      width: 80px;
+      height: 80px;
+    }
+
     main {
-      display: flex;           /* Flexbox para alinhar horizontalmente */
-      max-width: 800px;        /* Limita a largura do conteúdo */
-      margin: 20px auto;       /* Centraliza na página */
-      gap: 20px;               /* Espaço entre imagem e texto */
-      align-items: flex-start; /* Alinha topo da imagem com topo do texto */
-    }
-<img src="imagem-blog.png" alt="logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
-
-    /* Bloco de texto ao lado da imagem */
-    main div {
       display: flex;
-      flex-direction: column; /* Mantém h2 e parágrafos em coluna */
-      gap: 5px;
+      gap: 16px;
     }
 
-    /* Apenas o parágrafo do autor em negrito */
     .artigo-autor {
       font-weight: bold;
     }
@@ -43,13 +40,18 @@
   </header>
 
   <main>
-    <!-- Imagem de exemplo online; você pode trocar pela sua -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Book_icon_2.svg/120px-Book_icon_2.svg.png" 
-         alt="Logotipo de tecnologia e educação com livro e cérebro digital">
+    <img
+      src="imagem_fim_blog.png"
+      alt="logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco."
+    >
+
     <div>
       <h2>Meu primeiro post</h2>
-      <p class="artigo-autor">Por: rafael Solarevicz</p>
-      <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+      <p class="artigo-autor">Por: Marcelo Paludetto</p>
+      <p>
+        Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de
+        programação e curiosidades da área de tecnologia.
+      </p>
     </div>
   </main>
 
